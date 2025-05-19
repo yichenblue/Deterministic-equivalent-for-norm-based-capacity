@@ -1,10 +1,22 @@
-# Random Feature Ridge Regression (RFRR) Project
+# The Shape of Generalization through the Lens of Norm-based Capacity Control
 
-This project implements and analyzes Random Feature Ridge Regression (RFRR) for real-world datasets and Gaussian design scenarios. The project includes implementations for both theoretical analysis and practical applications.
+## Abstract
+---
 
+Understanding how the test risk scales with model complexity is a central question in machine learning. Classical theory is challenged by the learning curves observed for large over-parametrized deep networks.
+Capacity measures based on parameter count typically fail to account for these empirical observations. To tackle this challenge, we consider norm-based capacity measures and develop our study for random features based estimators, widely used as simplified theoretical models for more complex networks. 
+In this context, we provide a precise characterization of how the estimator’s norm concentrates and how it governs the associated test error. Our results show that the predicted learning curve admits a phase transition from under- to over-parameterization, but no double descent behavior. 
+This confirms that more classical U-shaped behavior is recovered considering appropriate capacity measures based on models norms rather than size. 
+From a technical point of view, we leverage deterministic equivalence as the key tool and further develop new deterministic quantities which are of independent interest.
+
+
+
+![Introduction Figure](intro_figure.png?raw=true)
 
 
 ## Project Structure
+
+This project implements and analyzes Random Feature Ridge Regression (RFRR) for real-world datasets and Gaussian design scenarios. The project includes implementations for both theoretical analysis and practical applications.
 
 ```
 .
@@ -24,9 +36,7 @@ This project implements and analyzes Random Feature Ridge Regression (RFRR) for 
 └── README.md                   # This file
 ```
 
-## Introduction
 
-![Introduction Figure](intro_figure.png?raw=true)
 
 ## Features
 
