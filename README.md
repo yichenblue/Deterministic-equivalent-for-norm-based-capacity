@@ -2,13 +2,15 @@
 
 This project implements and analyzes Random Feature Ridge Regression (RFRR) for real-world datasets and Gaussian design scenarios. The project includes implementations for both theoretical analysis and practical applications.
 
+
+
 ## Project Structure
 
 ```
 .
 ├── src/
-│   ├── RFRR_real_world/         # Real-world dataset implementations
-│   │   ├── RFRR.py       # Main 
+│   ├── RFRR_real_world/        # Real-world dataset implementations
+│   │   ├── RFRR.py             # Main 
 │   │   ├── utils.py            # Utility functions
 │   │   ├── models.py           # Model definitions
 │   │   ├── DE_utils.py         # Deterministic equivalent utilities
@@ -19,8 +21,12 @@ This project implements and analyzes Random Feature Ridge Regression (RFRR) for 
 │       └── random_feature_ridge_regression/  # Random feature ridge regression with gaussian design
 │
 ├── requirements.txt            # Project dependencies
-└── README.md                  # This file
+└── README.md                   # This file
 ```
+
+## Introduction
+
+![Introduction Figure](intro_figure.png)
 
 ## Features
 
@@ -86,6 +92,3 @@ The results of the experiments are saved in the `results/` directory, including:
 
 Feel free to submit issues and enhancement requests.
 
-## License
-
-[Specify your license here] 
