@@ -26,7 +26,7 @@ This project implements and analyzes Random Feature Ridge Regression (RFRR) for 
 
 ## Introduction
 
-![Introduction Figure](intro_figure.png)
+![Introduction Figure](intro_figure.png?raw=true)
 
 ## Features
 
